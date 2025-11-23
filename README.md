@@ -10,6 +10,7 @@ Every class is mapped to a section in FIPS 205. Inside each class, you’ll see 
 2) Make sure you have Java 8 or newer, and BouncyCastle in your classpath.
 3) Run SPHINCS+/src/Main.java:
    -> You can change the input message by editing - String parameterSet = " ";
+   
    -> You can change the parameter set by editing - byte[] message = " ".getBytes(); 
 
 
